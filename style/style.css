@@ -1,0 +1,106 @@
+/* Fondo de la página */
+body{
+    background-color: #cc9ce7; 
+    color: #000; 
+}
+.container {
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Margen automático a los lados para centrar */
+    padding: 0 20px; /* Añade un poco de espacio a los lados */
+}
+
+/* Fondo del menú */
+.menu {
+    background-color: #cc9ce7; 
+    color: #000; 
+}
+
+/* Estilo de las secciones */
+.title, .about, .skills, .academic, .experience, .formcontato, .footer {
+    background-color: #cc9ce7; 
+    color: #000
+}
+.skills {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+/* Estilo de la sección academic */
+.academic {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.skills .skills__line,
+.academic .academic__courses {
+    display: flex; /* Usamos flexbox para colocar los elementos uno al lado del otro */
+    gap: 20px; /* Espacio entre los elementos */
+    justify-content: space-around; /* Distribuye el espacio disponible entre los elementos */
+}
+/* Estilo del título */
+.title__bio {
+    color: #000;
+}
+
+/* Estilo del texto */
+.about__paragraph {
+    color: #000; 
+}
+
+/* Estilo de los enlaces del menú */
+.menu__list__item a {
+    color: #000; 
+}
+.menu__list__item a:hover {
+    font-size: 1.2em; /* Tamaño de fuente más grande en hover */
+    color: #fce66d; /* Cambio de color a amarillo suave */
+    transition: all 0.3s ease; /* Efecto de transición suave */
+}
+
+.formcontacto{
+    background-color: #cc9ce7; /* Fondo lila pastel */
+    color: #000; /* Texto negro */
+    margin: 40px auto; /* Centro el formulario verticalmente */
+    width: 50%; /* Ancho del formulario */
+    padding: 20px; /* Espacio interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    text-align: center; /* Alineación del texto centrada */
+}
+
+/* Estilo de los inputs y textarea */
+.input-padron, textarea {
+    display: block;
+    margin: 10px auto; /* Centra horizontalmente */
+    padding: 8px 15px; /* Espacio interno */
+    width: 80%; /* Ancho del input y textarea */
+    border: 2px solid #000; /* Borde sólido negro */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho y alto */
+}
+
+/* Estilo del botón de enviar */
+.enviar, .reset {
+    display: inline-block; /* Muestra los botones en línea */
+    padding: 10px 20px; /* Espacio interno */
+    margin-top: 20px; /* Margen superior */
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de puntero */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+/* Cambio de color en hover para los botones */
+.enviar:hover, .reset:hover {
+    background-color: #ffd700; /* Amarillo suave */
+    color: #000; /* Texto negro */
+}
+
+/* Estilo del footer */
+.footer {
+    text-align: center; /* Alineación del texto centrada */
+    margin-top: 20px; /* Margen superior */
+}
